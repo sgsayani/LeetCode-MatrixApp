@@ -122,3 +122,23 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 })
+
+const themeToggle = document.getElementById("theme-toggle");
+const themeIcon = document.getElementById("theme-icon");
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    const isDark = document.body.classList.contains("dark");
+    themeIcon.className = isDark ? "fas fa-sun" : "fas fa-moon";
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+});
+
+window.addEventListener("DOMContentLoaded", () => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark");
+        themeIcon.className = "fas fa-sun";
+    } else {
+        themeIcon.className = "fas fa-moon";
+    }
+});
