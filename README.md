@@ -1,4 +1,4 @@
-# LeetMetric 🔥
+# LeetMetric..
 
 **LeetMetric** is a sleek and modern front-end web app that beautifully and intuitively visualizes your LeetCode problem-solving progress. Built using vanilla **HTML**, **CSS**, and **JavaScript**, this app fetches user stats and displays them using animated progress circles and clean UI cards — inspired by LeetCode’s aesthetics.
 
