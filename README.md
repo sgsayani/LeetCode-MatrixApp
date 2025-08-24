@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 - 📊 Visual progress meters for Easy, Medium, and Hard problems
 - 🌗 Light/Dark theme toggle with sun/moon icons
